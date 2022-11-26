@@ -23,7 +23,7 @@ function Chocolate(){
             <div>
         
         <div className="par">
-            <img src={image}width="150px" />
+            <img src={image}width="150px" alt="par"/>
         </div>
 
         <div className='santa'>
@@ -31,7 +31,7 @@ function Chocolate(){
         </div>
 
         <div className='santa'>
-            <img src ={imageTwo}width="1050px"/>
+            <img src ={imageTwo}width="1050px"alt="two"/>
         </div>
 
         <div className='heading'>

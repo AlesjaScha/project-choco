@@ -4,7 +4,7 @@ return(
     <div className="item">
         {anyProducts.map((element=>{
 
-            const{id,name,searchTerm,price,image}=element;
+            const{id,name,price,image}=element;
 
        return(
         <div className="product-card"key={id}>

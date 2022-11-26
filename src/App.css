@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
+  background:#d76401 ;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0;
+  
+}
+.link{
+  padding: 20px 100px;
+  text-decoration: none;
+  color:#8a1717;
+  font-size: 20px;
+  font-family: 'Rubik Microbe', cursive;
+
+  
+}
+.santa{
+  display: flex;
+  justify-content: center;
+  background: #8a1717;
+
+  
+  
+}
+.title{
+  color:#d76401;
+  font-family: 'Rubik Microbe', cursive;
+  
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  
+  
+  
+}
+.submit{
+  padding: 20px ;
+  margin: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  background-color: #d76401;
+  color:#8a1717;
+  border: none;
+  font-family: 'Rubik Microbe', cursive;
+  
+
+}
+.sumbitOne{
+  padding: 10px;
+  background-color: #8a1717;
+  color: #d76401;
+  font-size: 20px;
+  width: 30%;
+  border: none;
+  font-family: 'Rubik Microbe', cursive;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  
+}
+.par{
+  background: #8a1717;
+
+  
+}
+.item{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.product-card{
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+  margin-left: 50px;
+  
+  
+}
+.nameChoco,.price{
+  margin-left: 100px;
+  color:#d76401;
+  font-family: 'Rubik Microbe', cursive;
+}
+.order{
+  border: 1px solid #8a1717;
+  padding: 20px;
+  width: 50%;
+  margin-left: 50px ;
+  color: #d76401;
+  background-color: #8a1717;
+}
+  
+.titleGift{
+  display: flex;
+  justify-content: center;
+  color:#d76401;
+  font-family: 'Rubik Microbe', cursive;
+  font-size: 30px;
+  
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+.chocoGifts{
+  display: flex;
+  justify-content: center;
+  
+}
+p{
+  padding: 100px;
+  color: #d76401;
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.address{
+display: flex;
+justify-content: center;
+color:#d76401;
+margin-top: 50px;
+
 }
+@media all and (max-width:800){
+
+  nav{
+    background:#d76401 ;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .link{
+    padding: 10px 50px;
+    font-size: 10px;
+    background: #d76401;
+   
+  }
+
+}
+@media all and (max-width:500){
+
+  nav{
+    background:#d76401 ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .link{
+    padding: 10px 50px;
+    font-size: 10px;
+    background: #d76401;
+   
+  }
+
+}
+
+
